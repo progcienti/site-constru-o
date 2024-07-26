@@ -1,0 +1,76 @@
+@import url('style2.css');
+@import url('style3.css');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-bar .contact-info span,
+.top-bar .account-links span {
+    margin: 0 15px;
+}
+
+.top-bar .account-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.top-bar .account-links a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: url('images/header-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.header-content {
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o texto ficar mais legível */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#search-bar {
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
